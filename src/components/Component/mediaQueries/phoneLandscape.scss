@@ -1,0 +1,18 @@
+@import '../mobile';
+
+& {
+  > section {
+    > header {
+
+      h1 {
+        color: green;
+        font-size: px(60);
+      }
+
+      .buttons {
+        justify-content: space-around;
+      }
+
+    }
+  }
+}
